@@ -1,0 +1,30 @@
+.project{
+    
+}
+.project-img{
+    position: relative;
+}
+.project-img-overlay{
+    position:absolute;
+    height: 100%;
+    width: 100%;
+    background: rgba(0,0,0,0.6);
+    backdrop-filter: blur(9px);
+    transform: scale(0);
+    transition: .1s;
+    color:#fff;
+    opacity: 0;
+    visibility: hidden;
+}
+.project:hover .project-img-overlay{
+    opacity: 1;
+    visibility: visible;
+    transform:scale(1)
+}
+.portfo-content{
+    background: rgba(0,0,0,0.6);
+    color: #ddd;
+}
+.portfo-content p {
+    font-size: 18px;
+}

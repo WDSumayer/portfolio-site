@@ -1,0 +1,39 @@
+.contact-wrapper{
+    /* background: rgba(0,0,0,0.5);
+    backdrop-filter: blur(15px); */
+    /* background-color: #1E1E1E; */
+    border-radius: 15px;
+    padding:15px;
+}
+.contact-form input, .contact-form textarea{
+    font-size: 17px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    background: rgba(0,0,0,0.5);
+    backdrop-filter: blur(21px);
+    border:1px solid #444;
+    width: 100%;
+    padding: 15px;
+    color:#fff;
+    border-radius: 7px;
+}
+
+.contact-form input:focus, .contact-form textarea:focus{
+    outline: none
+}
+.contact-form input::placeholder, .contact-form textarea::placeholder{
+    color: #d4d4d4;
+    font-size: 17px;
+    font-weight: 300;
+}
+.my-info p {
+    font-size: 17px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    padding: 15px;
+    color:#fff;
+    background: rgba(0,0,0,0.5);
+    backdrop-filter: blur(21px);
+    border-radius: 7px;
+    border:1px solid #444;
+}
